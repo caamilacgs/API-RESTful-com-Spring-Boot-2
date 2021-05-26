@@ -50,6 +50,7 @@ $ cd API-RESTful-com-Spring-Boot-2
 - Logo após, abra o seu navegador e acesse a pagina inicial: `http://localhost:8080/`
 - Para Conectar no banco acesso o caminho: http://localhost:8080/h2
 - Informe os dados de login definidos no arquivo application.properties
+- Link da collection do postman para importar: https://www.getpostman.com/collections/e67968ed9c4bde3ddb19
 
 <br>
 
