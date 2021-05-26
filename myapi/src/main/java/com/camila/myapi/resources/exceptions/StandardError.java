@@ -6,6 +6,10 @@ public class StandardError {
     private Long timestamp;
     private String message;
 
+    public StandardError() {
+        super();
+    }
+
     public StandardError(Integer status, Long timestamp, String message) {
         super();
         this.status = status;

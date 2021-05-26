@@ -7,6 +7,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotEmpty;
+
 import org.hibernate.validator.constraints.Length;
 
 @Entity
@@ -35,6 +36,7 @@ public class Usuario implements Serializable {
     }
 
     public Usuario(Integer id, String nome, String login, String senha) {
+        super();
         this.id = id;
         this.nome = nome;
         this.login = login;
@@ -61,8 +63,8 @@ public class Usuario implements Serializable {
         return login;
     }
 
-    public void setLogin(String nome) {
-        this.nome = login;
+    public void setLogin(String login) {
+        this.login = login;
     }
 
     public String getSenha() {
@@ -97,4 +99,5 @@ public class Usuario implements Serializable {
             return false;
         return true;
     }
+
 }

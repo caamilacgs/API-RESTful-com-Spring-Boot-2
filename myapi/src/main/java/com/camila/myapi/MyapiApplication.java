@@ -2,13 +2,13 @@ package com.camila.myapi;
 
 import java.util.Arrays;
 
-import com.camila.myapi.domain.Usuario;
-import com.camila.myapi.repositories.UsuarioRepository;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.camila.myapi.domain.Usuario;
+import com.camila.myapi.repositories.UsuarioRepository;
 
 @SpringBootApplication
 public class MyapiApplication implements CommandLineRunner {
