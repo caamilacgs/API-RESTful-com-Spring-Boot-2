@@ -27,9 +27,20 @@ public class UsuarioService {
     }
 
     public Usuario update(Integer id, Usuario obj) {
-        Usuario newObj - findById();
+        Usuario newObj = findById(id);
         newObj.setNome(obj.getNome());
         newObj.setLogin(obj.getLogin());
         newObj.setSenha(obj.getSenha());
         return repository.save(newObj);
     }
+
+    public Usuario create(Usuario obj) {
+        obj.setId(null);
+        return repository.save(obj);
+    }
+
+    public void delete(Integer id) {
+        findById(id);
+        repository.deleteById(id);
+    }
+}
