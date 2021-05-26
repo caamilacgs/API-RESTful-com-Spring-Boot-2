@@ -12,8 +12,13 @@ Projeto desenvolvido para entender a estrutura de um projeto java com spring boo
 ### Com esse projeto e possivel:
 - Consultar um usuario por id;
 - Consultar a lista de usuarios;
+- Criar um usuario;
 - Atualizar um usuario;
 - Deletar um usuario;
+
+
+![image](https://user-images.githubusercontent.com/60848932/119597549-a9c72e80-bdb7-11eb-92e8-481858050c74.png)
+
 
 <br>
 
