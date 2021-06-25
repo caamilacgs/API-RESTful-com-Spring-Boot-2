@@ -34,11 +34,11 @@ Projeto desenvolvido para entender a estrutura de um projeto java com spring boo
 
 - Clone o repositório:
 ```bash
-$ git clone https://github.com/caamilacgs/API-RESTful-com-Spring-Boot-2
+$ git clone https://github.com/caamilacgs/api-restful-com-spring-boot
 ```
 - Entre dentro da pasta:
 ```bash
-$ cd API-RESTful-com-Spring-Boot-2
+$ cd api-restful-com-spring-boot
 ```
 
 <br>
